@@ -1,0 +1,22 @@
+#topBarContent {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #FEFEFE;
+}
+            
+#content {
+    margin-top: 80px;
+}
+            
+#signInForm {
+    margin-top: 20px;
+}
+            
+small {
+    text-align: right;
+}
+            
+button {
+    background-color: #6AB139;
+    color: #FEFEFE;
+}
