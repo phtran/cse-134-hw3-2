@@ -1,0 +1,57 @@
+#nav {
+    height: 56px;    
+}
+            
+.topBarContent {
+    margin-left: 10px;
+    margin-right: 13px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #FEFEFE;
+}
+            
+#teamName {
+    text-align: center;
+    position: relative;
+    top: -50px;
+                
+}
+            
+#secondBar {
+    margin: -46px auto;
+    text-align: center;
+    font-weight: bold;
+    color: #FEFEFE;
+}
+            
+#secondBar>div div:nth-child(even) {
+    background-color: #59A028;
+    padding: 10px 0;
+    border: 1px solid white;
+}
+            
+#secondBar>div div:nth-child(odd) {
+    background-color: #7BC24A;
+    padding: 10px 0;
+    border: 1px solid white;
+}
+            
+#content {
+    margin-top: 80px;
+    text-align: center;
+}
+            
+.teamStats{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+            
+.borderRight {
+    border-right: 1px solid black;
+}
+            
+hr {
+    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
