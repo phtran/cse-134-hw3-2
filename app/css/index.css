@@ -85,10 +85,27 @@ a:-webkit-any-link {
 
 @media (min-width: 576px) {
 	.container {
-        max-width: 83.5%;
+        max-width: 540px;
     }
 }
 
+@media (min-width: 768px) {
+	.container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+	.container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+	.container {
+        max-width: 1140px;
+    }
+}
 
 .container {
     width: 100%;
@@ -143,9 +160,15 @@ a:-webkit-any-link {
     line-height: 1.5;
     border-radius: .25rem;
     transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: inherit;
 }
 
 span {
     position:relative;
     bottom:0.5rem;
+}
+
+input {
+	margin: 0;
+	font-family: inherit;
 }
