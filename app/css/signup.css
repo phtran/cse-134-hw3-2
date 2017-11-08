@@ -6,7 +6,6 @@
     margin-left: 10px;
     font-weight: bold;
     color: #FEFEFE;
-    margin-bottom: 1px;
 }
             
 #content {
@@ -64,12 +63,42 @@ body {
     white-space: nowrap;
 }
 
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .justify-content-md-center {
+        justify-content: center!important;
+    }
 }
 
 a:-webkit-any-link {
@@ -88,7 +117,7 @@ h1 {
     margin-top: 0;
     display: block;
     -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
+    -webkit-margin-after: 0;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
@@ -96,7 +125,7 @@ h1 {
 
 span {
     position:relative;
-    bottom:0.5rem;
+    bottom:0.47rem;
 }
 
 .form-group {
@@ -138,12 +167,26 @@ label {
     line-height: 1.5;
 }
 
+@media (min-width: 576px) {
+    .col-sm-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+}
+
 .col-sm-2 {
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-sm-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
 }
 
 .col-sm-5 {
@@ -165,6 +208,17 @@ button, input {
     margin-bottom: .5rem;
 }
 
+.form-check-input {
+    position: absolute;
+    margin-top: .25rem;
+    margin-left: -1.25rem;
+}
+
+.form-check-label {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -180,3 +234,10 @@ button, input {
     transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+input {
+    font-family: inherit;
+}
+
+::-webkit-input-placeholder {
+    color: #8e8e8e;
+}
