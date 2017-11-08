@@ -81,8 +81,13 @@ a:-webkit-any-link {
 
 span {
     position: relative;
-    /*bottom: 2.5rem;
-    left: 2.5rem;*/
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
 }
 
 .navbar {
