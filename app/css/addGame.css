@@ -1,0 +1,52 @@
+#nav{
+    height: 56px;    
+}
+
+.topBarContent {
+    margin-left: 10px;
+    margin-right: 13px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #FEFEFE;
+}
+
+#teamName {
+    text-align: center;
+    position: relative;
+    top: -50px;
+    
+}
+
+#secondBar {
+    margin: -46px auto;
+    text-align: center;
+    font-weight: bold;
+    color: #FEFEFE;
+}
+
+#secondBar>div div:nth-child(even) {
+    background-color: #59A028;
+    padding: 10px 0;
+    border: 1px solid white;
+}
+
+#secondBar>div div:nth-child(odd) {
+    background-color: #7BC24A;
+    padding: 10px 0;
+    border: 1px solid white;
+}
+
+#content {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#addGameForm {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #6AB139;
+    color: #FEFEFE;
+}
