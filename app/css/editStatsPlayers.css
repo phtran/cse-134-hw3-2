@@ -1,0 +1,98 @@
+#nav {
+    height: 56px;    
+}
+            
+.topBarContent {
+    margin-left: 10px;
+    margin-right: 13px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #FEFEFE;
+}
+            
+#teamName {
+    text-align: center;
+    position: relative;
+    top: -50px;            
+}
+            
+#secondBar {
+    margin: -46px auto;
+    text-align: center;
+    font-weight: bold;
+    color: #FEFEFE;
+}
+            
+#secondBar>div div:nth-child(even) {
+    background-color: #59A028;
+    padding: 10px 0;
+    border: 1px solid white;
+}
+            
+#secondBar>div div:nth-child(odd) {
+    background-color: #7BC24A;
+    padding: 10px 0;
+    border: 1px solid white;
+}
+            
+#content {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.zui-table {
+    border: none;
+    border-right: solid 1px lightgreen;
+    border-collapse: separate;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+.zui-table thead th {
+    background-color: lightgreen;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+    white-space: nowrap;
+}
+
+.zui-table tbody td {
+    border-bottom: solid 1px lightgreen;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    white-space: nowrap;
+}
+            
+.zui-wrapper {
+    position: relative;
+}
+            
+.zui-scroller {
+    margin-left: 40%;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-bottom: 5px;
+    width: 60%;
+}
+            
+.zui-table .zui-sticky-col {
+    border-left: solid 1px lightgreen;
+    border-right: solid 4px lightgreen;
+    left: 0;
+    font-weight: bold;
+    position: absolute;
+    top: auto;
+    width: 40%;
+}
+            
+button {
+    background-color: #6AB139;
+    color: #FEFEFE;
+}
+            
+.editNumber {
+    width: 40px;
+    height: 15px;
+}
