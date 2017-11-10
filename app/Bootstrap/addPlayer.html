@@ -53,6 +53,15 @@
                 margin-bottom: 30px;
             }
             
+            #insertImage {
+                max-width: 150px;
+                max-height: 150px;
+                border-radius: 50%;
+                background-color: lightblue;
+                line-height: 150px;
+                color: white;
+            }
+            
             #addPlayerForm {
                 margin-top: 50px;
             }
@@ -109,7 +118,7 @@
               <form id="addPlayerForm">
               
               <div class="form-group row justify-content-sm-center">
-                    <label for="exampleInputFile" class="col-sm-2 col-form-label">Insert an image</label>
+                    <label for="exampleInputFile" class="col-sm-2 col-form-label" id="insertImage">Insert an image</label>
                     <div class="col-sm-5">
                         <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="Player image">
                     </div>

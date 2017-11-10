@@ -316,6 +316,10 @@ button, input {
     transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.btn-danger {
+    background-color: #C82333;    
+}
+
 input {
     font-family: inherit;
 }

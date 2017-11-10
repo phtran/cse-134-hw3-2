@@ -328,7 +328,7 @@ input {
     max-width: 150px;
     max-height: 150px;
     border-radius: 50%;
-    background: lightblue;
+    background-color: lightblue;
     line-height: 150px;
     color: white;
 }
