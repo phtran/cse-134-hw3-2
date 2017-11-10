@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Total page size: 366 kb | Total time: 4.80 s --> 
+        <!-- html file size: 4.3 kb | Time: 666 ms -->
+        <!-- bootstrap.min.css file size: 22.3 kb | Time: 2.02 s -->
+        <!-- logo.jpg file size: 339 kb  | Time: 4.02 s -->
+        <title>Manage</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <style type="text/css">
+            
+            #nav{
+                height: 56px;    
+            }
+            
+            .topBarContent {
+                margin-left: 10px;
+                margin-right: 13px;
+                font-weight: bold;
+                font-size: 120%;
+                color: #FEFEFE;
+            }
+            
+            #teamName {
+                text-align: center;
+                position: relative;
+                top: -50px;
+                
+            }
+            
+            #secondBar {
+                margin: -46px auto;
+                text-align: center;
+                font-weight: bold;
+                color: #FEFEFE;
+            }
+            
+            #secondBar>div div:nth-child(even) {
+                background-color: #59A028;
+                padding: 10px 0;
+                border: 1px solid white;
+            }
+            
+            #secondBar>div div:nth-child(odd) {
+                background-color: #7BC24A;
+                padding: 10px 0;
+                border: 1px solid white;
+            }
+            
+            #content {
+                margin-top: 80px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            
+            button {
+                background-color: #6AB139;
+                color: #FEFEFE;
+            }
+            
+            
+        </style>
+    </head>
+
+    <body>        
+        <nav id="nav" class="navbar navbar-expand-md navbar-light" style="background-color: #6AB139;">
+              
+            <img src="../img/logo.jpg" width="38" height="30" class="d-inline-block align-top" alt="">
+            <div class="collapse navbar-collapse">
+                 <a class="navbar-brand" href="#">
+                      <span class="topBarContent">Soccer Tracker</span>
+                 </a>
+            </div>
+        </nav>
+        
+        <div class="container" id="teamName">
+            <h2 style="color: #FEFEFE;">Team Woo</h2>
+        </div>
+        
+        <div class="container-fluid" id="secondBar">
+          <div class="row">
+            <div class="col-xs col-3">
+              Home
+            </div>
+            <div class="col-xs col-3">
+              Game
+            </div>
+            <div class="col-xs col-3">
+              Player
+            </div>
+            <div class="col-xs col-3">
+              Manage
+            </div>
+          </div>
+        </div>
+        
+        <div id="content" class="container">
+              <h1>What would you like to do?</h1>
+              <br>
+              <br>
+              <button class="btn">Add a game</button>
+              <br>
+              <br>
+              <button class="btn">Add a player</button>
+        </div>
+    </body>
+</html>
