@@ -330,4 +330,5 @@ input {
 
 #inputChangeImage {
     display: none;
+    cursor: pointer;
 }
