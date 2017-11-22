@@ -30,16 +30,18 @@
             button {
                 background-color: #6AB139;
                 color: #FEFEFE;
+                cursor: pointer;
+                margin-bottom: 20px;
             }
             
         </style>
+        <script src="pageRedirection.js"></script>
     </head>
-
     <body>
         <div class="container-fluid">
              <nav class="navbar fixed-top navbar-light" style="background-color: #6AB139;">
               <a class="navbar-brand" href="#">
-                <img src="../img/logo2.png" width="38" height="30" class="d-inline-block align-top" alt="">
+                <img src="../img/logo2.png" onclick="goToPage('/Bootstrap/index.html')" style="cursor:pointer" width="38" height="30" class="d-inline-block align-top" alt="">
                   <span id="topBarContent">Soccer Tracker</span>
               </a>
              </nav>
@@ -96,9 +98,9 @@
                     Player
                   </label>
               </div>
-              <br>
-              <button type="submit" class="btn">Submit</button>
             </form>
+            <br>
+            <button onclick="/*addPlayer();*/ goToPage('/Bootstrap/index.html');" class="btn">Submit</button>
         </div>
     </body>
 </html>

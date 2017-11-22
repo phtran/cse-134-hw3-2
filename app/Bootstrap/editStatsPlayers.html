@@ -39,13 +39,13 @@
                 color: #FEFEFE;
             }
             
-            #secondBar>div div:nth-child(even) {
+            #secondBar>div div:nth-child(3) {
                 background-color: #59A028;
                 padding: 10px 0;
                 border: 1px solid white;
             }
             
-            #secondBar>div div:nth-child(odd) {
+            #secondBar>div div {
                 background-color: #7BC24A;
                 padding: 10px 0;
                 border: 1px solid white;
@@ -101,6 +101,7 @@
             button {
                 background-color: #6AB139;
                 color: #FEFEFE;
+                cursor: pointer;
             }
             
             .editNumber {
@@ -109,12 +110,13 @@
             }
 
         </style>
+        <script src="pageRedirection.js"></script>
     </head>
 
     <body>        
         <nav id="nav" class="navbar navbar-expand-md navbar-light" style="background-color: #6AB139;">
               
-            <img src="../img/logo2.png" width="38" height="30" class="d-inline-block align-top" alt="">
+            <img src="../img/logo2.png" onclick="goToPage('/Bootstrap/homescreen.html')" style="cursor:pointer" width="38" height="30" class="d-inline-block align-top" alt="">
             <div class="collapse navbar-collapse">
                  <a class="navbar-brand" href="#">
                       <span class="topBarContent">Soccer Tracker</span>
@@ -128,16 +130,16 @@
         
         <div class="container-fluid" id="secondBar">
           <div class="row">
-            <div class="col-xs col-3">
+            <div class="col-xs col-3" onclick="goToPage('/Bootstrap/homescreen.html')" style="cursor:pointer">
               Home
             </div>
-            <div class="col-xs col-3">
+            <div class="col-xs col-3" onclick="goToPage('/Bootstrap/viewGameSchedule.html')" style="cursor:pointer">
               Game
             </div>
-            <div class="col-xs col-3">
+            <div class="col-xs col-3" onclick="goToPage('/Bootstrap/statsPlayers.html')" style="cursor:pointer">
               Player
             </div>
-            <div class="col-xs col-3">
+            <div class="col-xs col-3" onclick="goToPage('/Bootstrap/manage.html')" style="cursor:pointer">
               Manage
             </div>
           </div>
@@ -366,7 +368,7 @@
             </div>
         </div>
         <div id="content" class="container">
-              <button type="submit" class="btn">Save</button>
+              <button onclick="goToPage('/Bootstrap/statsPlayers.html')" class="btn">Save</button>
         </div>
     </body>
 </html>
