@@ -85,6 +85,7 @@
             
         </style>
         <script src="pageRedirection.js"></script>
+        <script src="../js/addPlayer.js"></script>
     </head>
 
     <body>        
@@ -142,7 +143,7 @@
                 </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                <label for="inputEmail" class="col-sm-2 col-form-label">Date of Birth</label>
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-5">
                     <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
                 </div>
@@ -178,7 +179,11 @@
               </div>
             </form>
             <br>
-            <button onclick="goToPage('/Bootstrap/statsPlayers.html')" class="btn">Add Player</button>
+            <button onclick="savePlayer()" class="btn">Add Player</button>
+            <br>
+            <div>
+                <output id="result"></output>                
+            </div>
         </div>
     </body>
 </html>
