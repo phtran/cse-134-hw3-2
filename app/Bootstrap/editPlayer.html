@@ -97,6 +97,7 @@
             
         </style>
         <script src="pageRedirection.js"></script>
+        <script src="../js/editPlayer.js"></script>
     </head>
 
     <body>        
@@ -143,39 +144,39 @@
                     </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                <label for="inputFirstName" class="col-sm-2 col-form-label">First Name</label>
+                <label for="editFirstName" class="col-sm-2 col-form-label">First Name</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="inputFirstName" value="Peter">
+                    <input type="text" class="form-control" id="editFirstName">
                 </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                <label for="inputLastName" class="col-sm-2 col-form-label">Last Name</label>
+                <label for="editLastName" class="col-sm-2 col-form-label">Last Name</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="inputLastName" value="Parker">
+                    <input type="text" class="form-control" id="editLastName">
                 </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                <label for="inputEmail" class="col-sm-2 col-form-label">Date of Birth</label>
+                <label for="editEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-5">
-                    <input type="email" class="form-control" id="inputEmail" value="example@gmail.com">
+                    <input type="email" class="form-control" id="editEmail">
                 </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                <label for="inputBirth" class="col-sm-2 col-form-label">Date of Birth</label>
+                <label for="editBirth" class="col-sm-2 col-form-label">Date of Birth</label>
                 <div class="col-sm-5">
-                    <input type="date" class="form-control" id="inputBirth">
+                    <input type="date" class="form-control" id="editBirth">
                 </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                <label for="inputJersey" class="col-sm-2 col-form-label">Jersey Number</label>
+                <label for="editJersey" class="col-sm-2 col-form-label">Jersey Number</label>
                 <div class="col-sm-5">
-                    <input type="number" class="form-control" id="inputJersey" value="10">
+                    <input type="number" class="form-control" id="editJersey">
                 </div>
               </div>
               <div class="form-group row justify-content-sm-center">
-                  <label for="inputPosition" class="col-sm-2 col-form-label">Position</label>
+                  <label for="editPosition" class="col-sm-2 col-form-label">Position</label>
                   <div class="col-sm-5">
-                      <select class="form-control" id="inputPosition">
+                      <select class="form-control" id="editPosition">
                           <option>Goalkeeper</option>
                           <option>Defender</option>
                           <option>Midfielder</option>
@@ -194,7 +195,7 @@
             <button onclick="goToPage('/Bootstrap/viewplayer.html')" class="btn">Save</button>
             <br>
             <br>
-            <button onclick="goToPage('/Bootstrap/statsplayers.html')" class="btn btn-danger">Delete</button>
+            <button onclick="deletePlayer()" class="btn btn-danger">Delete</button>
         </div>
     </body>
 </html>

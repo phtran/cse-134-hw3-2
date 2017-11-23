@@ -9,7 +9,10 @@ function savePlayer() {
         position: document.getElementById('inputPosition').value,
         captain: document.getElementById('inputCaptain').value
     }
-    players.push(player);
+    var addPlayer = JSON.parse(window.localStorage['players']);
+    addPlayer.push(player);
+    window.localStorage.setItem('players', JSON.stringify(addPlayer));    
+    
     let elmt = document.createElement('p');
     let text = document.createTextNode('player added successfully');
     elmt.appendChild(text);
